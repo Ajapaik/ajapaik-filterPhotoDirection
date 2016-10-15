@@ -5,9 +5,9 @@
     attribution: 'MapBox &copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
-  
 
-  http://api.ajapaik.ee/api-v1.php?action=photo&latitude=59.438217&longitude=24.790332
+
+  //http://api.ajapaik.ee/api-v1.php?action=photo&latitude=59.438217&longitude=24.790332
 
   L.marker([51.5, -0.09]).addTo(map)
     .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
