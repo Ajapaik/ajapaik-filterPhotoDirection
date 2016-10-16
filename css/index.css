@@ -10,3 +10,32 @@ body {
   right: 0;
   position: fixed;
 }
+
+#image-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 255px;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: scroll;
+}
+
+#image-container > li{
+  padding: 0;
+  margin: 0;
+}
+
+#image-container > li > img{
+  width: 250px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+#image-container > li > img:first-child {
+  margin-top: 0px;
+}
